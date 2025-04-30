@@ -1,4 +1,45 @@
-# E-Commerce
+# 🛒 E-commerce Web Application (Java + Spring Boot)
+
+This is a full-stack E-commerce application built with **Java**, **Spring Boot**, **Spring MVC**, **JDBC**, and **MySQL**. It allows users to browse products, add them to a cart, and place orders. Admins can manage products and view orders.
+
+---
+
+## 🔧 Technologies Used
+
+- Java
+- Spring Boot
+- Spring MVC
+- JDBC
+- MySQL
+- HTML/CSS/JavaScript
+- Eclipse IDE
+- Apache Tomcat
+- Maven
+
+---
+
+## 💡 Features
+
+### 👥 User Module:
+- User registration and login (Spring Security or session-based auth)
+- Product browsing and search
+- Add to cart
+- Checkout and place order
+- Order history view
+
+### 🔐 Admin Module:
+- Admin login
+- Add/Edit/Delete products
+- View all orders
+- Manage inventory
+
+---
+
+## 🗃️ Database
+- MySQL schema with tables for Users, Products, Cart, and Orders.
+- Use `schema.sql` and `data.sql` to bootstrap the database.
+
+---
 
 ## New Version ( what's new)
 - Hibernate configuration added( database and tables automatically create when run the project)
@@ -108,7 +149,17 @@ The following guides illustrate how to use some features concretely:
 ![Screenshot 2025-05-01 000952](https://github.com/user-attachments/assets/85277ad3-8248-4f77-884c-532f0eba4e2a)
 ![Screenshot 2025-05-01 000939](https://github.com/user-attachments/assets/42042a8b-962b-432e-ad5c-0f11001ed754)
 
+## 🏁 Future Improvements
+- Add payment gateway (e.g., Razorpay, Stripe)
+- Add unit & integration testing
+- Migrate frontend to React or Angular
+- Deploy to cloud (Heroku, AWS)
 
+---
+
+## 🧑‍💻 Author
+Vishal Singh Kashyap  
+B.Tech CSE | Full Stack Developer | Java & Spring Enthusiast
 
 
 
